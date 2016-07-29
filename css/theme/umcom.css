@@ -4,9 +4,11 @@
  * By Hakim El Hattab, http://hakim.se
  */
 @import url(../../lib/font/source-sans-pro/source-sans-pro.css);
-section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
+section.has-dark-background.bg-image, section.has-dark-background.bg-image h1, section.has-dark-background.bg-image h2, section.has-dark-background.bg-image h3, section.has-dark-background.bg-image h4, section.has-dark-background.bg-image h5, section.has-dark-background.bg-image h6 {
   color: #fff; text-shadow: 0px 0px 15px rgba(0, 0, 0, 1);}
 
+  section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
+    color: #fff;}
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
